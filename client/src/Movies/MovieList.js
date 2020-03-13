@@ -34,6 +34,7 @@ function MovieDetails({ movie }) {
     return (
         <Link to={`/movie/${id}`}>
             <MovieCard
+                key={id}
                 title={title}
                 director={director}
                 metascore={metascore}
